@@ -12,6 +12,11 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib"
+  ],
   "dependencies": {
     "eslint": "^6.5.0",
     "requireindex": "~1.1.0"
