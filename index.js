@@ -1,5 +1,5 @@
 module.export = {
   "rules": {
-    "map": require('./lib/rules/map.js')
+    "lodash-to-native/map": require('./lib/rules/map.js')
   }
 }
