@@ -1,6 +1,6 @@
 # eslint-plugin-lodash-to-native
 
-Convert loadsh#map to Array#map.
+Propose to convert lodash#map method to Array#map method.
 
 ## Installation
 
@@ -13,10 +13,8 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-lodash-to-native`:
 
 ```
-$ npm install eslint-plugin-lodash-to-native --save-dev
+$ npm install -S https://github.com/Muxa89/eslint-plugin-lodash-to-native.git --save-dev
 ```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-lodash-to-native` globally.
 
 ## Usage
 
@@ -40,11 +38,6 @@ Then configure the rules you want to use under the rules section.
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
 
 
 
