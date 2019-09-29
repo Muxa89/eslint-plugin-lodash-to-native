@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-lodash-to-native",
+  "name": "lodash-to-native",
   "version": "0.0.0",
   "description": "Convert loadsh#map to Array#map",
   "keywords": [
@@ -8,15 +8,15 @@
     "eslint-plugin"
   ],
   "author": "Mikhail Chepko",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "eslint": "^6.5.0",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
     "mocha": "^3.1.2"
   },
   "engines": {
