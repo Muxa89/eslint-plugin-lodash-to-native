@@ -1,1 +1,5 @@
-module.export.rules.map = require('./lib/rules/map.js');
+module.export = {
+  "rules": {
+    "map": require('./lib/rules/map.js')
+  }
+}
